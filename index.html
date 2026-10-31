@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Full-stack developer portfolio — projects, skills and contact." />
+  <title>Alex Morgan | Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>alex<span class="muted">morgan</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme"><span class="theme-icon">☼</span></button>
+        <a class="button button-small button-outline" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> AVAILABLE FOR SELECT PROJECTS</div>
+        <p class="eyebrow">HELLO, I'M ALEX MORGAN</p>
+        <h1>I build digital<br><span class="gradient-text">experiences</span> that<br>make an impact<span class="accent">.</span></h1>
+        <p class="hero-description">A full-stack developer turning complex ideas into fast, thoughtful and beautifully crafted web applications.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#work">Explore my work <span>↗</span></a><a class="text-link" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><div><strong>03+</strong><span>Years building</span></div><i></i><div><strong>20+</strong><span>Projects shipped</span></div><i></i><div><strong>12</strong><span>Happy clients</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><b></b><b></b><b></b></div><span>developer.js</span><span class="code-status">● live</span></div>
+          <div class="code-content">
+            <p><span class="ln">01</span><span class="pink">const</span> developer = {</p>
+            <p><span class="ln">02</span>&nbsp; name: <span class="green">'Alex Morgan'</span>,</p>
+            <p><span class="ln">03</span>&nbsp; role: <span class="green">'Full-stack dev'</span>,</p>
+            <p><span class="ln">04</span>&nbsp; loves: [</p>
+            <p><span class="ln">05</span>&nbsp;&nbsp; <span class="yellow">'clean code'</span>,</p>
+            <p><span class="ln">06</span>&nbsp;&nbsp; <span class="yellow">'great UX'</span>,</p>
+            <p><span class="ln">07</span>&nbsp;&nbsp; <span class="yellow">'coffee'</span></p>
+            <p><span class="ln">08</span>&nbsp; ],</p>
+            <p><span class="ln">09</span>&nbsp; building: <span class="green">'what’s next'</span></p>
+            <p><span class="ln">10</span>};<span class="typing-cursor"></span></p>
+          </div>
+        </div>
+        <div class="floating-tag tag-top"><span>✳</span> CREATIVE THINKER</div>
+        <div class="floating-tag tag-bottom"><span class="tag-dot"></span> BUILDING THE WEB</div>
+        <div class="hero-orb">AM</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-intro reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>Curious mind.<br><span class="muted-heading">Builder's heart.</span></h2></div>
+        <div class="about-copy reveal"><p class="lead">I’m a developer who enjoys working at the intersection of <span class="highlight">design, technology and problem-solving.</span></p><p>From shaping a clean interface to designing the API and database behind it, I love the entire process of bringing a product to life. My focus is writing maintainable code and creating experiences people enjoy using.</p><div class="about-bottom"><span class="signature">Alex Morgan</span><span class="mono-label">BASED IN YOUR CITY · WORKING WORLDWIDE</span></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="eyebrow">02 / MY TOOLKIT</p><h2>Things I work with<span class="accent">.</span></h2></div><p class="section-note">The right tool for the right problem.<br>Always learning, always improving.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-number">01</div><div class="skill-icon">⌘</div><h3>Frontend</h3><p>Interfaces that feel intuitive, responsive and alive.</p><div class="chip-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Responsive UI</span></div></article>
+          <article class="skill-card reveal"><div class="skill-number">02</div><div class="skill-icon">⌁</div><h3>Backend</h3><p>Reliable server-side systems and well-designed APIs.</p><div class="chip-list"><span>Python</span><span>Django</span><span>Node.js</span><span>REST APIs</span><span>Authentication</span></div></article>
+          <article class="skill-card reveal"><div class="skill-number">03</div><div class="skill-icon">▦</div><h3>Database & Tools</h3><p>Structured data, smooth workflows and clean delivery.</p><div class="chip-list"><span>PostgreSQL</span><span>MySQL</span><span>Git</span><span>GitHub</span><span>Figma</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Made with purpose<span class="accent">.</span></h2></div><a class="text-link" href="#contact">Have a project in mind? ↗</a></div>
+        <div class="projects-grid">
+          <article class="project-card project-large reveal"><div class="project-art art-one"><div class="dashboard-window"><div class="dash-bar"><span></span><span></span><span></span></div><div class="dash-layout"><div class="dash-side"></div><div class="dash-main"><div class="dash-title"></div><div class="dash-stats"><i></i><i></i><i></i></div><div class="dash-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div><span class="art-label">01 / SAAS DASHBOARD</span></div><div class="project-info"><div><h3>Orbit Analytics</h3><p>A clean analytics dashboard for teams to understand their data and make smarter decisions.</p><div class="project-tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div></div><a class="round-link" href="#contact" aria-label="Ask about Orbit Analytics">↗</a></div></article>
+          <article class="project-card reveal"><div class="project-art art-two"><div class="shop-card"><div class="shop-image"><div class="product-shape"></div></div><div class="shop-lines"><i></i><i></i><b></b></div></div><span class="art-label">02 / E-COMMERCE</span></div><div class="project-info"><div><h3>Forma Store</h3><p>A modern shopping experience with a simple checkout flow.</p><div class="project-tags"><span>Django</span><span>JavaScript</span><span>MySQL</span></div></div><a class="round-link" href="#contact" aria-label="Ask about Forma Store">↗</a></div></article>
+          <article class="project-card reveal"><div class="project-art art-three"><div class="task-board"><div class="task-column"><b></b><i></i><i></i></div><div class="task-column"><b></b><i></i><i></i></div><div class="task-column"><b></b><i></i></div></div><span class="art-label">03 / PRODUCTIVITY APP</span></div><div class="project-info"><div><h3>Flowspace</h3><p>A collaborative task manager that helps small teams stay in sync.</p><div class="project-tags"><span>JavaScript</span><span>REST API</span><span>CSS</span></div></div><a class="round-link" href="#contact" aria-label="Ask about Flowspace">↗</a></div></article>
+        </div>
+        <p class="project-disclaimer">Sample projects — replace these with your own work, screenshots and repository links.</p>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container process-wrap"><div class="section-intro reveal"><p class="eyebrow">04 / HOW I WORK</p><h2>From first thought<br>to <span class="gradient-text">final build.</span></h2></div><div class="process-list"><div class="process-item reveal"><span>01</span><div><h3>Understand</h3><p>Get clear on the problem, the people and what success looks like.</p></div><b>↗</b></div><div class="process-item reveal"><span>02</span><div><h3>Design & plan</h3><p>Map the experience, choose the stack and plan the architecture.</p></div><b>↗</b></div><div class="process-item reveal"><span>03</span><div><h3>Build & refine</h3><p>Develop in thoughtful iterations, test and polish the details.</p></div><b>↗</b></div><div class="process-item reveal"><span>04</span><div><h3>Launch & grow</h3><p>Ship with confidence, learn from feedback and keep improving.</p></div><b>↗</b></div></div></div>
+    </section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-inner reveal"><p class="eyebrow">05 / WHAT'S NEXT?</p><h2>Have a good idea?<br><span class="gradient-text">Let's build it.</span></h2><p class="contact-copy">I'm always open to interesting projects, collaborations and conversations.</p><a class="button button-primary button-large" href="mailto:hello@example.com">hello@example.com <span>↗</span></a><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance ↗</a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>alex<span class="muted">morgan</span></span></a><span>DESIGNED & BUILT WITH CARE</span><span>© <span id="year"></span> ALEX MORGAN</span><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
